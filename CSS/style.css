@@ -1,0 +1,40 @@
+.MenuDeInicio{
+    position: relative;
+    list-style: none;
+    background: rgb(57, 57, 221);
+    padding: 0;
+    width:auto;
+    max-width:1000px;
+    margin: auto;
+    font-family: 'Play', sans-serif;
+  }
+
+.MenuDeInicio li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    
+    
+}
+
+.MenuDeInicio li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.fondo{
+    background-color: rgb(22, 75, 173);
+   
+}
+
+.title{
+    font-family: 'Rajdhani', sans-serif;
+
+}
+.fontTicket{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
