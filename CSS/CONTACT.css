@@ -1,0 +1,47 @@
+.MenuDeInicio li a{
+    text-decoration: none;
+    display:flex;
+   
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+
+        
+}
+
+.MenuDeInicio li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+#fontface  {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size:150%;
+    
+}
+
+#invi{
+    transition:background 2s;
+    transition: color ;
+}
+#invi :hover{
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+
+
+header {
+    grid-area: header;
+    background: linear-gradient(90deg,#ffd300 0%,#d41e33 100%);
+    
+           
+}

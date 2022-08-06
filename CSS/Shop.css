@@ -1,0 +1,344 @@
+@media screen and (min-width: 320px) {
+    
+
+    .MenuDeInicio{
+        
+        list-style: none;
+        background: rgba(0, 38, 255, 0);
+        margin: 0 auto;
+        
+        
+        
+    }
+    
+    .MenuDeInicio li a{
+        text-decoration: none;
+        display:flex;
+       
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        
+    
+            
+    }
+    
+    .MenuDeInicio li {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        display: inline-block;
+        
+        
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+    
+    #fontface  {
+        font-family: "Titillium Web", Helvetica, sans-serif;
+        font-size:150%;
+        
+    }
+    
+    #invi{
+        transition:background 2s;
+        transition: color ;
+    }
+    #invi :hover{
+        background: rgba(255, 255, 255, 0);
+        color: aliceblue;
+    }
+    
+    
+    header {
+        grid-area: header;
+        background: linear-gradient(90deg,#ffd300 0%,#d41e33 100%);
+        
+               
+    }
+    
+    footer {
+        grid-area: footer;
+        background: linear-gradient(90deg,#ffd500e1 0%,#d41e33e1 100%);
+    }
+    
+    section#productos{
+        grid-area: productos;
+        overflow: hidden;
+       
+        
+    }
+    
+    section#servicios{
+        grid-area: servicios;
+        overflow: hidden;
+        background-color: aqua;
+        
+    }
+    
+    aside{
+        grid-area: publicidad;
+        
+        background-color: rgb(153, 38, 38);
+        overflow: hidden auto;
+        border: solid 1px rgba(128, 128, 128, 0.329);
+    
+    }
+    
+    #grid{
+        display: grid;
+        grid-template-columns:auto auto;
+        grid-template-rows:auto 300px auto  100px;
+        grid-template-areas: "header header" "publicidad productos" " publicidad productos"  "footer footer" ;
+        column-gap:1px;
+        row-gap: 1px;
+    }
+    
+    .test{
+     
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+       }
+       
+       section#productos h1{
+           text-align: center;  
+           font-family: 'Ubuntu', sans-serif;
+           color: rgb(5, 5, 71);
+           padding: 10px;
+           font-size: 200%;
+            
+       }
+       section#productos h4{
+          text-align: center;
+           font-family: 'Ubuntu', sans-serif;
+           color: rgb(255, 255, 255);
+           padding: 10px;
+           
+            
+       }
+       #lineagris{
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+            
+            font-size:150%;
+            padding: 10px;
+             
+       }
+       
+       .Tabla{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content:space-around;
+           font-family: 'Roboto Condensed', sans-serif;
+           color: rgb(5, 5, 77);
+           font-weight: bold;
+           text-align: center;
+           margin: 0px;
+           overflow: hidden auto;
+       
+       
+        }
+       
+      
+       
+       .gris{
+           background-color: rgba(128, 128, 128, 0.219);
+       }
+    
+       
+    .buton{
+        width: 100%;
+        height: 32px;
+        color: #fff;
+        border: 0;
+        outline: 2px solid rgba(255,211,0,.5);
+        outline-offset: -2px;
+        background: linear-gradient(90deg,#ffd300 0%,#d41e33 100%);
+    }
+    
+    }
+    
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media screen and (min-width: 1200px) {
+    
+
+.MenuDeInicio{
+    
+    list-style: none;
+    background: rgba(0, 38, 255, 0);
+    margin: 0 auto;
+    
+    
+    
+}
+
+.MenuDeInicio li a{
+    text-decoration: none;
+    display:flex;
+   
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+
+        
+}
+
+.MenuDeInicio li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    display: inline-block;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+#fontface  {
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    font-size:150%;
+    
+}
+
+#invi{
+    transition:background 2s;
+    transition: color ;
+}
+#invi :hover{
+    background: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+
+
+header {
+    grid-area: header;
+    background: linear-gradient(90deg,#ffd300 0%,#d41e33 100%);
+    
+           
+}
+
+footer {
+    grid-area: footer;
+    background: linear-gradient(90deg,#ffd500e1 0%,#d41e33e1 100%);
+}
+
+section#productos{
+    grid-area: productos;
+    overflow: hidden;
+   
+    
+}
+
+section#servicios{
+    grid-area: servicios;
+    overflow: hidden;
+    background-color: aqua;
+    
+}
+
+aside{
+    grid-area: publicidad;
+    
+    background-color: rgb(18, 7, 80);
+    overflow: hidden auto;
+    border: solid 1px rgba(128, 128, 128, 0.329);
+
+}
+
+#grid{
+    display: grid;
+    grid-template-columns:300px 700px 320px ;
+    grid-template-rows:auto 1108px 100px;
+    grid-template-areas: "header header header" "publicidad productos productos" "footer footer footer" ;
+    column-gap:1px;
+    row-gap: 1px;
+}
+
+.test{
+ 
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   
+   section#productos h1{
+       text-align: center;  
+       font-family: 'Ubuntu', sans-serif;
+       color: rgb(5, 5, 71);
+       padding: 10px;
+       font-size: 200%;
+        
+   }
+   section#productos h4{
+      text-align: center;
+       font-family: 'Ubuntu', sans-serif;
+       color: rgb(128, 20, 20);
+       padding: 10px;
+       
+        
+   }
+   #lineagris{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        
+        font-size:150%;
+        padding: 10px;
+         
+   }
+   
+   .Tabla{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content:space-around;
+       font-family: 'Roboto Condensed', sans-serif;
+       color: rgb(5, 5, 77);
+       font-weight: bold;
+       text-align: center;
+       margin: 0px;
+   
+   
+    }
+   
+    .Tabla td{
+       padding: 40px;
+   
+    }
+   
+   .gris{
+       background-color: rgba(128, 128, 128, 0.219);
+   }
+
+   
+.buton{
+    width: 100%;
+    height: 32px;
+    color: #fff;
+    border: 0;
+    outline: 2px solid rgba(255,211,0,.5);
+    outline-offset: -2px;
+    background: linear-gradient(90deg,#ffd300 0%,#d41e33 100%);
+}
+
+}
+
+
+
+
+
