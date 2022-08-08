@@ -136,7 +136,7 @@
            font-family: "Titillium Web", Helvetica, sans-serif;
            font-weight: bold;
            text-align: center;
-           color: rgb(255, 255, 255);
+           color: rgb(8, 8, 8);
            overflow: hidden;
            
                 
@@ -166,6 +166,13 @@
        
         
     }
+
+    .tamano{
+        height: 100%;
+        width: 100%;
+       }
+   
+   
    
 
 
@@ -347,6 +354,11 @@
     .RedBoton :hover{
                 color: rgb(0, 0, 0);
             background: linear-gradient(90deg,#ffffff 0%,#ff0000 100%);
+    }
+
+    .tamano{
+     height: 100%;
+     width: 100%;
     }
 
 
